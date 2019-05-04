@@ -20,7 +20,7 @@ app.configure(function() {
   app.use(express.static(__dirname + '/public'));
 });
 
-app.use();
+app.use(api);
 
 mongoose.connect('mongodb://localhost:27017');
 
