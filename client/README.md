@@ -70,10 +70,3 @@ this._googleAuth.userLogout(()=>{
 
 ### Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
-
----
-### Known Issue
-You might get error : `gapi is not defined`
-It is because the service component may get loaded before `gapi` is declared. Make sure you handle it when you use the service.
-
-SUGGESTION : Use `AfterViewInit` interface.
