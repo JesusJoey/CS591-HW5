@@ -1,4 +1,4 @@
-# Angular 2 Google Login
+# Angular Google Login
 This is a sample app showing how we can login using Google authentication in Angular2.
 
 You can visit npm for more info on [angular2-google-login package](https://www.npmjs.com/package/angular2-google-login)
